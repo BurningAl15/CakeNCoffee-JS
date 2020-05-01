@@ -335,7 +335,6 @@
 
       <!-- CONTACTO -->
       <section class="contacto" id="contacto">
-        
         <div class="datos parallax">
           <div class="overlay"></div>
           <div class="container">
@@ -361,30 +360,27 @@
         </div>
 
         <div class="formulario">
-          <for action="" class="formulario_contacto" name="formulario_contacto">
+          <form
+            action=""
+            class="formulario_contacto"
+            name="formulario_contacto"
+          >
             <div>
               <div class="input-group">
                 <input type="text" id="nombre" name="nombre" />
                 <label class="label" for="nombre">Nombre</label>
-                <!-- <p class="error">Por favor llena el nombre</p> -->
               </div>
               <div class="input-group">
                 <input type="email" id="email" name="email" />
-                <label class="label" for="email">Correo Electrónico</label>
+                <label class="label" for="email">Correo electrónico</label>
               </div>
               <div class="input-group">
-                <textarea
-                  name="mensaje"
-                  id="mensaje"
-                  cols="30"
-                  rows="10"
-                ></textarea>
+                <textarea name="mensaje" id="mensaje"></textarea>
                 <label class="label" for="mensaje">Mensaje</label>
               </div>
-
               <input type="submit" value="Enviar" />
             </div>
-          </for>
+          </form>
         </div>
       </section>
     </section>
@@ -411,6 +407,6 @@
     <script src="js/slider.js"></script>
     <script src="js/tabs.js"></script>
     <script src="js/bgParallax.js"></script>
-
-</body>
+    <script src="js/formulario.js"></script>
+  </body>
 </html>
