@@ -42,7 +42,6 @@
         }
         window.scrollTo(0, propScroll.posicion);
       }, 15);
-      console.log("Moverse");
     },
     subir: function (e) {
       e.preventDefault();
@@ -60,7 +59,6 @@
         }
         window.scrollTo(0, propScroll.posicion);
       }, 15);
-      console.log("Subir");
     },
   };
 

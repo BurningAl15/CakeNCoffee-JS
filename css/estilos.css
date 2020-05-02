@@ -153,7 +153,7 @@ header .menu-bar-movil .slideMenu .menu-principal a {
   width: 50%;
 }
 .main .portada .col .foto.izq {
-  background-image: url("../img/portada-1.jpg");
+  background-image: url("../imagen/portada-1.jpg");
   background-position: left;
 }
 .main .portada .col .foto.der {
@@ -436,18 +436,8 @@ z .main .menu-platos .container .container-menu .encabezado li.active a {
   position: relative;
   margin-bottom: 2rem;
 }
-.main
-  .contacto
-  .formulario
-  .formulario_contacto
-  .input-group
-  input[type="text"],
-.main
-  .contacto
-  .formulario
-  .formulario_contacto
-  .input-group
-  input[type="email"],
+.main .contacto .formulario .formulario_contacto .input-group input[type="text"],
+.main .contacto .formulario .formulario_contacto .input-group input[type="email"],
 .main .contacto .formulario .formulario_contacto .input-group textarea {
   font-family: "Poppins", serif;
   font-size: 1rem;
@@ -460,18 +450,8 @@ z .main .menu-platos .container .container-menu .encabezado li.active a {
   border-bottom: 2px solid rgba(180, 151, 90, 0.5);
   vertical-align: top;
 }
-.main
-  .contacto
-  .formulario
-  .formulario_contacto
-  .input-group
-  input[type="text"]:focus,
-.main
-  .contacto
-  .formulario
-  .formulario_contacto
-  .input-group
-  input[type="email"]:focus,
+.main .contacto .formulario .formulario_contacto .input-group input[type="text"]:focus,
+.main .contacto .formulario .formulario_contacto .input-group input[type="email"]:focus,
 .main .contacto .formulario .formulario_contacto .input-group textarea:focus {
   border-bottom: 2px solid #b4975a;
 }
@@ -496,12 +476,7 @@ z .main .menu-platos .container .container-menu .encabezado li.active a {
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-.main
-  .contacto
-  .formulario
-  .formulario_contacto
-  .input-group
-  label.label.active {
+.main .contacto .formulario .formulario_contacto .input-group label.label.active {
   top: -12px;
   margin-left: 0;
   font-size: 0.75rem;
